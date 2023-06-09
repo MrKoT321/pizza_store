@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Make new Pizza!</title>
+</head>
+<body>
+    <form action="/pizza/add" method="post" class="add-pizza-form">
+        <p>
+            <h2>Введите название пиццы: </h2>
+            <input type="text" name="name" required />
+        </p>
+        <p>
+            <h2>Введите описание пиццы: </h2>
+            <input type="text" name="description" required />
+        </p>
+        <p>
+            <h2>Введите цену (в рублях): </h2>
+            <input type="text" name="cost" required />
+        </p>
+        <p><button type="submit">Отправить</button></p>
+    </form>
+</body>
+</html>
